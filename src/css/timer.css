@@ -1,0 +1,35 @@
+#datetime-picker {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .timer {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .field {
+    text-align: center;
+    margin: 0 10px;
+  }
+  
+  .value {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .label {
+    font-size: 14px;
+  }
